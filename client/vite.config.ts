@@ -11,7 +11,7 @@ export default defineConfig({
       "@assets": path.resolve(__dirname, "../attached_assets"),
     },
   },
-  base: "/metronome-app/", // Replace with your GitHub repo name
+  base: "/Metronome-App/", // Replace with your GitHub repo name
   build: {
     outDir: "dist",
     emptyOutDir: true,
