@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Clock, HeartPulse, RotateCcw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { metronomeStorage } from "@/lib/storage";
-import type { ProgressSession } from "@shared/schema";
+import type { ProgressSession } from "../../types";
 
 interface ProgressTrackerProps {
   isPlaying: boolean;

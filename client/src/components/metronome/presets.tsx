@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { metronomeStorage } from "@/lib/storage";
 import { useToast } from "@/hooks/use-toast";
-import type { MetronomePreset, MetronomeSettings } from "@shared/schema";
+import type { MetronomePreset, MetronomeSettings } from "../../types";
 
 interface PresetsProps {
   currentSettings: MetronomeSettings;

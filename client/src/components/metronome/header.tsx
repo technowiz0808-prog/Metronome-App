@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useTheme } from "@/hooks/use-theme";
 import { metronomeStorage } from "@/lib/storage";
 import { useToast } from "@/hooks/use-toast";
-import type { MetronomeSettings } from "@shared/schema";
+import type { MetronomeSettings } from "../../types";
 
 interface HeaderProps {
   currentSettings: MetronomeSettings;

@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { audioEngine } from "@/lib/audio-engine";
 import { metronomeStorage } from "@/lib/storage";
-import type { MetronomeState, MetronomeSettings } from "@shared/schema";
+import type { MetronomeState, MetronomeSettings } from "../types";
 
 export function useMetronome() {
   const [state, setState] = useState<MetronomeState>(() => {

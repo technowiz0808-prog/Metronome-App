@@ -1,4 +1,4 @@
-import type { MetronomePreset, MetronomeSettings, ProgressSession } from "@shared/schema";
+import type { MetronomePreset, MetronomeSettings, ProgressSession } from "../types";
 
 const PRESETS_KEY = "metronome_presets";
 const SESSIONS_KEY = "progress_sessions";
